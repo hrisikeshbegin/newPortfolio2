@@ -18,4 +18,4 @@ It is fully responsive and built using **HTML, CSS, and JavaScript**.
 Clone the repository:
 
 ```bash
-git clone https://github.com/hrisikeshbegin/newPortfoli2o.git
+git clone https://github.com/hrisikeshbegin/newPortfoli2.git
