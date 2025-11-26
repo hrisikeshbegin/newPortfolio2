@@ -1,6 +1,14 @@
 'use strict';
 
-
+// Loading animation
+window.addEventListener('load', () => {
+  const loadingOverlay = document.getElementById('loadingOverlay');
+  if (loadingOverlay) {
+    setTimeout(() => {
+      loadingOverlay.classList.add('hidden');
+    }, 500);
+  }
+});
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
